@@ -1,0 +1,53 @@
+{
+  "name": "omarchy-live-theme",
+  "version": "0.4.1",
+  "description": "Paints the Claude desktop app in the active Omarchy theme and follows theme switches live, with an animated backdrop matched to each theme's wallpapers",
+  "author": {
+    "name": "JMThomas00",
+    "url": "https://github.com/JMThomas00"
+  },
+  "repository": "https://github.com/JMThomas00/claude-mods",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "omarchy",
+    "desktop",
+    "backdrop"
+  ],
+  "userConfig": {
+    "scene": {
+      "type": "boolean",
+      "title": "Animated backdrop",
+      "description": "Draw an animated scene behind the conversation in the theme's colors. Off leaves only the colors",
+      "default": true
+    },
+    "scene_style": {
+      "type": "string",
+      "title": "Backdrop style",
+      "description": "auto picks the scene that matches the theme's own wallpapers; or force one for every theme",
+      "options": [
+        "auto",
+        "skyline",
+        "cosmos",
+        "launch",
+        "ridges",
+        "ink",
+        "waves",
+        "synth",
+        "geometric",
+        "embers",
+        "rain",
+        "grapes"
+      ],
+      "default": "auto"
+    },
+    "poll_seconds": {
+      "type": "number",
+      "title": "Check every (seconds)",
+      "description": "How often to look for an Omarchy theme switch",
+      "default": 5,
+      "min": 2,
+      "max": 120
+    }
+  }
+}

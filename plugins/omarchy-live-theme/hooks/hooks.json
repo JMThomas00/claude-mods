@@ -1,0 +1,1 @@
+{ "description": "omarchy-live-theme hooks module", "modules": ["./register.tsx"] }

@@ -1,0 +1,15 @@
+{
+  "name": "jmthomas00",
+  "description": "Claude Code mods by JMThomas00",
+  "owner": {
+    "name": "JMThomas00",
+    "url": "https://github.com/JMThomas00"
+  },
+  "plugins": [
+    {
+      "name": "omarchy-live-theme",
+      "source": "./plugins/omarchy-live-theme",
+      "description": "Paints the Claude desktop app in the active Omarchy theme and follows theme switches live"
+    }
+  ]
+}
